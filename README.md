@@ -1,5 +1,3 @@
-A simple demo of Slack INCOMING WEBHOOK and OUTGOING WEBHOOK, with OpenWeatherMap API
-
 REQUIREMENT
 ===========
 1. Setup ngRok -
