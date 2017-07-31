@@ -1,4 +1,10 @@
-REQUIREMENT
+SLACK WEATHER APP
+=================
+This is a simple demo of interaction with slack, using WebHook.
+It uses both Incoming and Outgoing WebHooks.
+It shows the weather of a specific location, using OpenWeatherMap API
+
+Requirement
 ===========
 1. Setup ngRok -
 	1. npm install ngRok
@@ -40,7 +46,7 @@ REQUIREMENT
 And we are good to go!!
 
 
-HOW TO RUN 
+How to run
 ==========
 1. Add the webhooks to your channel
 2. Set trigger word, for triggering the process
