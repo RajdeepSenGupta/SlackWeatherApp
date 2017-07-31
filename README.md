@@ -1,5 +1,3 @@
-# SlackWeatherApp
-
 A simple demo of Slack INCOMING WEBHOOK and OUTGOING WEBHOOK, with OpenWeatherMap API
 
 REQUIREMENT
