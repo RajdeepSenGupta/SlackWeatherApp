@@ -10,6 +10,7 @@ REQUIREMENT -
 	1. Outgoing Webhook helps to call API from slack. 
 	2. When slack encounters a specific trigger keyword, it calls the particular API.
 	3. It automatically sends a payload object with the following parameters -
+	
 		a. token
 		b. team_id
 		c. team_domain
@@ -20,6 +21,7 @@ REQUIREMENT -
 		h. user_name
 		i. text
 		j. trigger_word
+		
 3. Setup Incoming Webhook  -
 	1. Incoming Webhook helps slack, to receive a message, sent from the API
 	2. It receives a payload object sent from the API
