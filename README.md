@@ -2,7 +2,8 @@
 
 A simple demo of Slack INCOMING WEBHOOK and OUTGOING WEBHOOK, with OpenWeatherMap API
 
-REQUIREMENT -
+REQUIREMENT
+===========
 1. Setup ngRok -
 	1. npm install ngRok
 	2. Host your localhost application using ngRok - "ngrok http -host-header="localhost:58821" 58821"
@@ -41,3 +42,10 @@ REQUIREMENT -
 	4. The API of openweathermap is already given in the StringConstant
 
 And we are good to go!!
+
+
+HOW TO RUN 
+==========
+1. Add the webhooks to your channel
+2. Set trigger word, for triggering the process
+3. <trigger> <location_name>/<zip_code>/<area_id>
