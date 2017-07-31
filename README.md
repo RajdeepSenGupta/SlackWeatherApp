@@ -12,14 +12,23 @@ REQUIREMENT -
 	3. It automatically sends a payload object with the following parameters -
 	
 		a. token
+		
 		b. team_id
+		
 		c. team_domain
+		
 		d. channel_id
+		
 		e. channel_name
+		
 		f. timestamp
+		
 		g. user_id
+		
 		h. user_name
+		
 		i. text
+		
 		j. trigger_word
 		
 3. Setup Incoming Webhook  -
