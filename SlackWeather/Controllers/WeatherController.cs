@@ -2,6 +2,7 @@
 using SlackWeather.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -48,8 +49,10 @@ namespace SlackWeather.Controllers
                 weather.Humidity = GetHumidity(weatherObj);
 
                 // Get Location Name
-                weather.Location = weatherObj.SelectToken("name").ToString();
-
+                var countryDetails = new RegionInfo(weatherObj.SelectToken("sys").SelectToken("country").ToString());
+                weather.Location = weatherObj.SelectToken("name").ToString() + ", "
+                    + countryDetails.EnglishName + " (" + countryDetails.NativeName + ")";
+                
                 // Get Wind Speed (km/h)
                 weather.Wind = GetWindSpeed(weatherObj);
 

@@ -9,12 +9,12 @@ namespace SlackWeather.Models
     {
         public string SlackIncomingWebhook
         {
-            get { return "<Put your incoming webhook url here>"; }
+            get { return "https://hooks.slack.com/services/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"; }
         }
 
         public string WeatherApiKey
         {
-            get { return "<Put your api key here>"; }
+            get { return "0ff0028b695d833b6817c6fdef55146c"; }
         }
 
         public string WeatherApi
