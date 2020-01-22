@@ -13,7 +13,7 @@ namespace SlackWeather.Controllers
     public class WeatherController
     {
         /// <summary>
-        /// Method for getting the weather details
+        /// Method for getting the weather details - RS
         /// </summary>
         /// <param name="location"></param>
         /// <returns></returns>
